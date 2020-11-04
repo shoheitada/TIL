@@ -1,4 +1,4 @@
-#コマンド等
+#コマンドmemmo
 
 -フォルダを作成したいディレクトリでクローン
 git clone https://github.com/ScheduleMethod/smart-management.git
@@ -15,5 +15,20 @@ git checkout
 -ブランチを切り替え&新しいものを作成
 git checkout -b
 
--プルリクエストにてレビューワーの設定方法
+-対象プロジェクトに移動
+cd /prj_name
+
+-リポジトリを作成 
+git init
+git status //状態確認
+
+-ローカルプロジェクト内のファイルをコミット
+git add.
+git commit -m "First commit."
+
+-リモートリポジトリへ接続し、プッシュ
+git remote add origin ssh://git@github.com:UserName/ProjectName
+もしくは
+git remote add origin https://github.com/UserName/ProjectName
+git push -u origin master
 
