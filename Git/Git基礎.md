@@ -1,34 +1,42 @@
-#コマンドmemmo
+### コマンドmemmo
 
--フォルダを作成したいディレクトリでクローン
-git clone https://github.com/ScheduleMethod/smart-management.git
+- フォルダを作成したいディレクトリでクローン 
 
--ディレクトリを移ってブランチの取得
-git fetch
+```git clone https://github.com/ScheduleMethod/smart-management.git```
 
--ブランチ確認
-git branch -a
+- ディレクトリを移ってブランチの取得
 
--ブランチの切り替え
-git checkout
+```git fetch```
 
--ブランチを切り替え&新しいものを作成
-git checkout -b
+- ブランチ確認
 
--対象プロジェクトに移動
-cd /prj_name
+```git branch -a```
 
--リポジトリを作成 
-git init
-git status //状態確認
+- ブランチの切り替え
 
--ローカルプロジェクト内のファイルをコミット
-git add.
-git commit -m "First commit."
+```git checkout```
 
--リモートリポジトリへ接続し、プッシュ
-git remote add origin ssh://git@github.com:UserName/ProjectName
-もしくは
-git remote add origin https://github.com/UserName/ProjectName
-git push -u origin master
+- ブランチを切り替え&新しいものを作成
+
+```git checkout -b```
+
+- 対象プロジェクトに移動
+
+```cd /prj_name```
+
+- リポジトリを作成 
+
+```git init```
+```git status //状態確認```
+
+- ローカルプロジェクト内のファイルをコミット
+
+```git add.```
+```git commit -m "First commit.```
+
+- リモートリポジトリへ接続し、プッシュ
+
+```git remote add origin ssh://git@github.com:UserName/ProjectName```
+```git remote add origin https://github.com/UserName/ProjectName```
+or```git push -u origin master```
 
