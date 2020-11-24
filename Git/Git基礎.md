@@ -44,3 +44,11 @@ or```git push -u origin master```
 - マージの状態に関わらず、指定したブランチを削除する
 
 ```git branch -D <branchname>```
+
+- 現在のブランチの名前をm以降に変更
+
+```git branch -m 〇〇 ```
+
+- 指定したコミットを引き継ぐ
+
+```git cherry-pick コミットID```
