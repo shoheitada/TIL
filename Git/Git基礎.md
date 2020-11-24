@@ -40,3 +40,7 @@
 ```git remote add origin https://github.com/UserName/ProjectName```
 or```git push -u origin master```
 
+
+- マージの状態に関わらず、指定したブランチを削除する
+
+```git branch -D <branchname>```
