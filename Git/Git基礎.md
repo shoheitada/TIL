@@ -52,3 +52,6 @@ or```git push -u origin master```
 - 指定したコミットを引き継ぐ
 
 ```git cherry-pick コミットID```
+
+- リモートブランチがローカルブランチの派生元ではない場合も、ローカルブランチの内容で強制的に上書きする 
+```git push origin feature/lint-SchoolNotification -f```
