@@ -55,3 +55,7 @@ or```git push -u origin master```
 
 - リモートブランチがローカルブランチの派生元ではない場合も、ローカルブランチの内容で強制的に上書きする 
 ```git push origin feature/lint-SchoolNotification -f```
+
+- 空コミット
+```git commit --allow-empty -m "コミットメッセージ"```
+https://qiita.com/miriwo/items/dbf82ca73723026d96f2
