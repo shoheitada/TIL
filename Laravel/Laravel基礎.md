@@ -15,7 +15,7 @@ https://qiita.com/ryo2132/items/63ced19601b3fa30e6de
  
   authにきめられたことをすべてのコントローラーで実施
   
--　webphpでの記載
+- webphpでの記載
 
 　get('/home', 'HomeController@index')->name('home');
  
